@@ -1,0 +1,57 @@
+.frame{
+    width: 350px;
+    height: 550px;
+    background: linear-gradient(to right, rgb(5, 245, 245), rgb(217, 10, 10));
+    box-shadow: rgb(41, 33, 33);
+    display: flex;
+    flex-direction: column;
+    border-radius: 2%;
+    border-left: 2px solid rgba(255,255,255,.3);
+    border-top: 4px solid rgba(255,255,255,.3);
+    position: absolute;
+    top: 130px;
+    left: 1150px;
+    padding: 30px;
+}
+.frame h3{
+    
+    margin-top: 1%;
+    text-align: center;
+    text-shadow: 3px 4px 5px #05352a33;
+    font-family: Arial;
+    color: white;
+    letter-spacing: 1px;
+    text-emphasis: 2px;
+    margin-bottom: 7%;
+}
+.frame label{
+    color: black;
+    font-weight:lighter;
+    font-size: 16px;
+    font-style:italic;
+    font-family: Arial;
+    margin-left: 4%;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+}
+.frame input{
+    width: 240px;
+    height: 35px;
+    margin-bottom: 4%;
+    margin-left: 10%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid ;
+}
+
+.frame a{
+    color: black;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5%;
+    
+    font-style: italic;  
+}

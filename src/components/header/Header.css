@@ -1,0 +1,32 @@
+.Logo{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(245, 11, 11, 0.958);
+    font-size: 250%;
+    padding-left: 40px;
+    padding-top: 25px;
+    margin: 0%;
+    font-style: italic;
+    font-weight: bolder;
+    text-shadow: -2px 3px 5px rgb(120, 92, 92);
+}
+.menu{
+    padding-left: 300px;
+}
+ul{
+    color: black;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    list-style-type: none;
+}
+ul :hover{
+    color: rgb(25, 191, 224);
+}
+ul li{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+}

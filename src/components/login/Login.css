@@ -1,0 +1,67 @@
+.frame{
+    width: 250px;
+    height: 350px;
+    background: linear-gradient(to right, rgb(5, 245, 245), rgb(217, 10, 10));
+    box-shadow: 70px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2%;
+    border-left: 2px solid rgba(255,255,255,.3);
+    border-top: 4px solid rgba(255,255,255,.3);
+    position: absolute;
+    top: 130px;
+    left: 1150px;
+    padding: 30px;
+    opacity: 70%;
+}
+.frame h2{
+    text-align: center;
+    text-shadow: 3px 4px 5px #05352a33;
+    font-family: Arial;
+    color: white;
+    letter-spacing: 1px;
+    text-emphasis: 2px;
+    margin-bottom: 7%;
+}
+.frame label{
+    font-weight:lighter;
+    font-size: 16px;
+    font-style:italic;
+    font-family: Arial;
+    margin-left: 1%;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+}
+.frame input{
+    width: 240px;
+    height: 35px;
+    margin-bottom: 4%;
+    margin-left: 1%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid ;
+}
+.frame button{
+    margin-left: 30%;
+    height: 10%; 
+    margin-bottom: 5%;
+    width: 35%; 
+    border: none;
+    letter-spacing: 1px; 
+    outline: none;
+    border-radius: 5px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    text-align: center;
+    font-size: 90%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.frame a{
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: bold;   
+}
