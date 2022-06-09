@@ -1,8 +1,9 @@
 .copy{
-    padding-left: 700px;
+    position: absolute;
+    padding-left: 600px;
     font-size: larger;
     font-style: italic;
-    
-    margin-top: 17%;
+    font-weight: bold;    
+    margin-top: 40%;
     color: black;
 }

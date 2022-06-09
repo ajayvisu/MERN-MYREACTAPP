@@ -1,6 +1,6 @@
 .frame{
     width: 350px;
-    height: 550px;
+    height: 500px;
     background: linear-gradient(to right, rgb(5, 245, 245), rgb(217, 10, 10));
     box-shadow: rgb(41, 33, 33);
     display: flex;
@@ -51,7 +51,10 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 5%;
-    
+    margin-top: 0%;
     font-style: italic;  
+}
+.btn_signup{
+    padding: 5%;
+     
 }
